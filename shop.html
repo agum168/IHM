@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>IHM Ejemplos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!--
+    
+TemplateMo 559 Zay Shop
+
+https://templatemo.com/tm-559-zay-shop
+
+-->
+</head>
+
+<body>
+    <!-- Start Top Nav -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+        <div class="container text-light">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <i class="fa fa-envelope mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none"
+                        href="mailto:info@company.com">alisson.reym@campusucc.edu.co</a>
+                    <i a class="fa fa-phone mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
+                </div>
+
+            </div>
+            </nav>
+            <!-- Close Top Nav -->
+
+
+            <!-- Header -->
+            <nav class="navbar navbar-expand-lg navbar-light shadow">
+                <div class="container d-flex justify-content-between align-items-center">
+
+                    <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+                        IHM
+                    </a>
+
+                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between"
+                        id="templatemo_main_nav">
+                        <div class="flex-fill">
+                            <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">¿Qué es?</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="shop.html">Ejemplos</a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </nav>
+            <!-- Close Header -->
+
+            <!-- Modal
+            <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="w-100 pt-1 mb-5 text-right">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                        <div class="input-group mb-2">
+                            <input type="text" class="form-control" id="inputModalSearch" name="q"
+                                placeholder="Search ...">
+                            <button type="submit" class="input-group-text bg-success text-light">
+                                <i class="fa fa-fw fa-search text-white"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div> -->
+
+
+
+            <!-- Start Content -->
+            <div class="container py-5">
+                <div class="row">
+
+                    <div class="col-lg-3">
+                        <h1 class="h2 pb-4">Categorias</h1>
+                        <ul class="list-unstyled templatemo-accordion">
+                            <li class="pb-3">
+                                <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
+                                    Dispositivos móviles y aplicaciones
+                                    <i class="fa fa-fw fa-chevron-circle-down mt-1"></i>
+                                </a>
+                                <ul class="collapse show list-unstyled pl-3">
+                                    <li><a class="text-decoration-none" href="#">◦Teléfonos inteligentes</a></li>
+                                    <li><a class="text-decoration-none" href="#">◦Asistentes virtuales en dispositivos
+                                            móviles (Siri, Google Assistant)</a></li>
+                                </ul>
+                            </li>
+                            <li class="pb-3">
+                                <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
+                                    Transacciones financieras y servicios
+                                    <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>
+                                </a>
+                                <ul id="collapseTwo" class="collapse list-unstyled pl-3">
+                                    <li><a class="text-decoration-none" href="#">◦Cajeron automáticos</a></li>
+                                    <li><a class="text-decoration-none" href="#">◦Pagos en línea</a></li>
+                                </ul>
+                            </li>
+                            <li class="pb-3">
+                                <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
+                                    Automatización del hogar
+                                    <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>
+                                </a>
+                                <ul id="collapseThree" class="collapse list-unstyled pl-3">
+                                    <li><a class="text-decoration-none" href="#">◦Luces controladas por voz</a></li>
+                                    <li><a class="text-decoration-none" href="#">◦Cerraduras electrónicas</a></li>
+                                    <li><a class="text-decoration-none" href="#">◦Asistentes de voz para el hogar
+                                            (Amazon
+                                            Alexa, Google Home)</a></li>
+                                </ul>
+                            </li>
+                            <li class="pb-3">
+                                <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
+                                    Entretenimiento y juegos
+                                    <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>
+                                </a>
+                                <ul id="collapseThree" class="collapse list-unstyled pl-3">
+                                    <li><a class="text-decoration-none" href="#">◦Videojuegos</a></li>
+                                    <li><a class="text-decoration-none" href="#">◦Plataformas de transmisión de
+                                            contenido
+                                            (por ejemplo, Netflix)</a></li>
+                                    <li><a class="text-decoration-none" href="#">◦Realidad virtual y aumentada</a></li>
+                                </ul>
+                            </li>
+                            <li class="pb-3">
+                                <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
+                                    Navegación y ubicación
+                                    <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>
+                                </a>
+                                <ul id="collapseThree" class="collapse list-unstyled pl-3">
+                                    <li><a class="text-decoration-none" href="#">◦Sistemas de navegación GPS</a></li>
+                                    <li><a class="text-decoration-none" href="#">◦Aplicaciones de mapas en dispositivos
+                                            móviles</a></li>
+                                    <li><a class="text-decoration-none" href="#">◦Realidad aumentada para navegación
+                                        </a></li>
+                                </ul>
+                            </li>
+                            <li class="pb-3">
+                                <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
+                                    Automoción y transporte
+                                    <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>
+                                </a>
+                                <ul id="collapseThree" class="collapse list-unstyled pl-3">
+                                    <li><a class="text-decoration-none" href="#">◦Comandos de voz en automóviles</a>
+                                    </li>
+                                    <li><a class="text-decoration-none" href="#">◦Sistemas de información y
+                                            entretenimiento
+                                            en el automóvil</a></li>
+                                    <li><a class="text-decoration-none" href="#">◦Aplicaciones de transporte compartido
+                                            (Uber, Lyft)</a></li>
+                                </ul>
+                            </li>
+                            <li class="pb-3">
+                                <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
+                                    Asistencia en la atención médica y la educación
+                                    <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>
+                                </a>
+                                <ul id="collapseThree" class="collapse list-unstyled pl-3">
+                                    <li><a class="text-decoration-none" href="#">◦Robots de servicio en hospitales</a>
+                                    </li>
+                                    <li><a class="text-decoration-none" href="#">◦Plataformas de aprendizaje en
+                                            línea</a>
+                                    </li>
+                                    <li><a class="text-decoration-none" href="#">◦Asistentes virtuales para
+                                            educación</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-9">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="list-inline shop-top-menu pb-3 pt-1">
+                                    <li class="list-inline-item">
+                                        <a class="h3 text-dark text-decoration-none mr-3" href="#">Tipos de
+                                            interacción</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card mb-4 product-wap rounded-0">
+                                    <div class="card rounded-0">
+                                        <img class="card-img rounded-0 img-fluid" src="assets\img\eje1.jpg" style="width: 400px; height: 400px;">
+                                        <div
+                                            class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <a href="shop-single.html" class="h3 text-decoration-none"><b>Interacción táctil
+                                                o táctil:</b></a>
+                                        <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                            <li>Este tipo de interacción implica tocar pantallas, teclados o
+                                                dispositivos
+                                                físicos. Los dispositivos táctiles, como los smartphones y las tabletas,
+                                                son
+                                                ejemplos destacados de esta categoría.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 product-wap rounded-0">
+                                    <div class="card rounded-0">
+                                        <img class="card-img rounded-0 img-fluid" src="assets\img\index6.jpg" style="width: 400px; height: 400px;">
+                                        <div
+                                            class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <a href="shop-single.html" class="h3 text-decoration-none"><b> Interacción de
+                                                voz:</b></a>
+                                        <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                            <li>Los usuarios pueden interactuar con máquinas utilizando comandos de voz.
+                                                Los
+                                                asistentes virtuales como Siri, Google Assistant y Amazon Alexa son
+                                                ejemplos
+                                                de este tipo de interacción.</li>
+
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 product-wap rounded-0">
+                                    <div class="card rounded-0">
+                                        <img class="card-img rounded-0 img-fluid" src="assets\img\index8.jpg" style="width: 400px; height: 400px;">
+                                        <div
+                                            class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <a href="shop-single.html" class="h3 text-decoration-none"><b>Interacción
+                                                gestual:</b></a>
+
+                                        <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                            <li>Los usuarios controlan las máquinas mediante gestos físicos. Los
+                                                sensores de movimiento permiten a los usuarios controlar los personajes
+                                                mostrados en pantalla a través de gestos corporales.</li>
+
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 product-wap rounded-0">
+                                    <div class="card rounded-0">
+                                        <img class="card-img rounded-0 img-fluid" src="assets/img/eje2.jpg" style="width: 400px; height: 400px;">
+                                        <div
+                                            class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <a href="shop-single.html" class="h3 text-decoration-none"><b>Interacción por
+                                                escánerde iris o huella dactilar: </b></a>
+                                        <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                            <li>
+                                                La identificación biométrica se emplea en seguridad, permitiendo a los
+                                                usuarios el desbloqueo seguro de dispositivos mediante el reconocimiento
+                                                facial o de la huella dactilar.</li>
+
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 product-wap rounded-0">
+                                    <div class="card rounded-0">
+                                        <img class="card-img rounded-0 img-fluid" src="assets/img/eje3.jpg" style="width: 400px; height: 400px;">
+                                        <div
+                                            class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <a href="shop-single.html" class="h3 text-decoration-none"><b>Interacción por
+                                                mirada:</b></a>
+                                        <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                            <li>Algunos sistemas permiten a los usuarios controlar dispositivos o
+                                                aplicaciones a través del seguimiento de la mirada. Esto es útil en
+                                                aplicaciones de accesibilidad y realidad virtual.</li>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 product-wap rounded-0">
+                                    <div class="card rounded-0">
+                                        <img class="card-img rounded-0 img-fluid" src="assets/img/eje4.jpg" style="width: 400px; height: 400px;">
+                                        <div
+                                            class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <a href="shop-single.html" class="h3 text-decoration-none"><b>Interacción por
+                                                pensamiento:</b></a>
+                                        <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                            <li>La identificación biométrica se usa en seguridad, permitiendo
+                                                desbloquear dispositivos mediante reconocimiento facial, huella dactilar
+                                                u otras características únicas.</li>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 product-wap rounded-0">
+                                    <div class="card rounded-0">
+                                        <img class="card-img rounded-0 img-fluid" src="assets/img/eje5.jpg" style="width: 400px; height: 400px;">
+                                        <div
+                                            class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <a href="shop-single.html" class="h3 text-decoration-none"><b>Interacción por
+                                                señales eléctricas:</b></a>
+                                        <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                            <li>
+                                                En medicina, se emplean dispositivos para detectar señales eléctricas del cuerpo humano, como el EEG y el ECG, lo cual facilita la interacción bidireccional entre el cuerpo humano y la máquina.
+                                            </li>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 product-wap rounded-0">
+                                    <div class="card rounded-0">
+                                        <img class="card-img rounded-0 img-fluid" src="assets/img/eje6.jpg" style="width: 400px; height: 400px;">
+                                        
+                                        <div
+                                            class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <a href="shop-single.html" class="h3 text-decoration-none"><b>Interacción por
+                                                gestos faciales:</b></a>
+                                        <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                            <li>Algunos sistemas utilizan el seguimiento de los gestos faciales para
+                                                permitir a los usuarios controlar expresiones faciales en personajes de
+                                                videojuegos o avatares en aplicaciones de chat.</li>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 product-wap rounded-0">
+                                    <div class="card rounded-0">
+                                
+                                        <img class="card-img rounded-0 img-fluid" src="assets/img/eje7.jpg" style="width: 400px; height: 400px;">
+
+                                        <div
+                                            class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <a href="shop-single.html" class="h3 text-decoration-none"><b>Interacción por
+                                                movimientos corporales completos:</b></a>
+                                        <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                            <li>Este tipo de interacción se utiliza en aplicaciones de realidad virtual
+                                                y
+                                                juegos, donde los sensores de movimiento rastrean los movimientos del
+                                                cuerpo
+                                                completo del usuario.</li>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div div="row">
+                                <ul class="pagination pagination-lg justify-content-end">
+                                    <!-- <li class="page-item disabled">
+                            <a class="page-link active rounded-0 mr-3 shadow-sm border-top-0 border-left-0" href="#" tabindex="-1">Volver a inicio</a>
+                        </li> -->
+                                    <li class="page-item">
+                                        <a class="page-link rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark"
+                                            href="#">Volver a inicio</a>
+                                    </li>
+                                    <!-- <li class="page-item">
+                            <a class="page-link rounded-0 shadow-sm border-top-0 border-left-0 text-dark" href="#">3</a>
+                        </li> -->
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- End Content -->
+
+                <!-- Start Brands -->
+                <section class="bg-light py-5">
+                    <div class="container my-4">
+                        <div class="row text-center py-3">
+                            <div class="col-lg-6 m-auto">
+                                <h1 class="h1">Interacción Humano-Máquina</h1>
+                                <p>
+                                    La interacción humano-máquina, en constante evolución, redefine la forma en que las
+                                    personas y las tecnologías colaboran para simplificar tareas, tomar decisiones
+                                    informadas y mejorar la eficiencia en una amplia gama de campos, desde la atención
+                                    médica hasta el entretenimiento y la vida cotidiana.
+                                </p>
+                            </div>
+                            <div class="col-lg-9 m-auto tempaltemo-carousel">
+                                <div class="row d-flex flex-row">
+                                    <!--Controls-->
+                                    <div class="col-1 align-self-center">
+                                        <a class="h1" href="#multi-item-example" role="button" data-bs-slide="prev">
+                                            <i class="text-light fas fa-chevron-left"></i>
+                                        </a>
+                                    </div>
+                                    <!--End Controls-->
+
+                                    <!--Carousel Wrapper-->
+                                    <div class="col">
+                                        <div class="carousel slide carousel-multi-item pt-2 pt-md-0"
+                                            id="multi-item-example" data-bs-ride="carousel">
+                                            <!--Slides-->
+                                            <div class="carousel-inner product-links-wap" role="listbox">
+
+
+                                            </div>
+                                            <!--End Slides-->
+                                        </div>
+                                    </div>
+                                    <!--End Carousel Wrapper-->
+
+                                    <!--Controls-->
+                                    <div class="col-1 align-self-center">
+                                        <a class="h1" href="#multi-item-example" role="button" data-bs-slide="next">
+                                            <i class="text-light fas fa-chevron-right"></i>
+                                        </a>
+                                    </div>
+                                    <!--End Controls-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--End Brands-->
+
+
+                <!-- Start Footer -->
+                <footer class="bg-dark" id="tempaltemo_footer">
+                    <div class="container">
+
+                        <div class="w-100 bg-black py-3">
+                            <div class="container">
+                                <div class="row pt-2">
+                                    <div class="col-12">
+                                        <p class="text-left text-light">
+                                            Derechos de autor &copy; 2023 Universidad Cooperativa de Colombia
+                                            | Diseñado por <a rel="sponsored" href="https://templatemo.com/page/1"
+                                                target="_blank">Alisson Rey Martinez</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                </footer>
+                <!-- End Footer -->
+
+                <!-- Start Script -->
+                <script src="assets/js/jquery-1.11.0.min.js"></script>
+                <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+                <script src="assets/js/bootstrap.bundle.min.js"></script>
+                <script src="assets/js/templatemo.js"></script>
+                <script src="assets/js/custom.js"></script>
+                <!-- End Script -->
+</body>
+
+</html>
+
+<!-- Start Script -->
+<script src="assets/js/jquery-1.11.0.min.js"></script>
+<script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/templatemo.js"></script>
+<script src="assets/js/custom.js"></script>
+<!-- End Script -->
+</body>
+
+
+</html>
